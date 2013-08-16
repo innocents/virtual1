@@ -39,6 +39,7 @@
                print "<TD width=\"180\">$row[3]</TD>";
                print "</TR>";
              }
+             echo mb_convert_encoding($html, "utf-8");
          ?>
     </TBODY>
   </TABLE>
